@@ -1,0 +1,16 @@
+@import url(/css/style.css);
+
+main {
+    background-color: var(--black);
+    padding: 4rem 4rem;
+}
+main section {
+    text-align: center;
+}
+main section p {
+    color: var(--white);
+}
+main div img {
+    width: 40%;
+    height: 300px;
+}
