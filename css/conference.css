@@ -1,9 +1,5 @@
 @import url(/css/style.css);
 
-main {
-    background-color: var(--black);
-    padding: 4rem 4rem;
-}
 main section {
     text-align: center;
 }
@@ -14,3 +10,10 @@ main div img {
     width: 40%;
     height: 300px;
 }
+@media screen and (max-width: 680px){
+    main div img {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 980px){}

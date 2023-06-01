@@ -73,3 +73,16 @@ main {
     border: 2px solid var(--white);
     transition: 250ms;
 }
+@media screen and (max-width: 680px){
+    main {
+        padding: 8rem 2rem;
+    }
+    .form-contact {
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 980px){
+    main {
+        padding: 8rem 4rem;
+    }
+}
